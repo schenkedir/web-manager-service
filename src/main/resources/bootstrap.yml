@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: web-manager-service
+  profiles:
+    active: development
+  cloud:
+    config:
+      uri: http://localhost:8888
+      fail-fast: true
+      username: config-user
+      password: v3ryS3cR3tp4$$w0rd
